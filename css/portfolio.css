@@ -598,7 +598,7 @@ img {
   color: #ffffff;
 }
 
-.footer__address {
+.page-footer__address {
   margin-right: 70px;
 }
 
@@ -630,7 +630,7 @@ img {
 .social__text {
   margin-bottom: 20px;
   padding-top: 12px;
-  color: var(--social-text);
+  color: #ffffff;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
