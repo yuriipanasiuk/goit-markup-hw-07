@@ -1,4 +1,4 @@
-.contact-block {
+.contacts {
   margin-left: auto;
 
   &__link:hover,
@@ -7,16 +7,16 @@
   }
 }
 
-.contact-block__list {
+.contacts__list {
   display: flex;
   align-items: center;
 }
 
-.contact-block__item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.contact-block__link {
+.contacts__link {
   display: flex;
   align-items: center;
 
@@ -30,7 +30,7 @@
   transition: color 250ms $cubic-bezier;
 }
 
-.contact-block__icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }

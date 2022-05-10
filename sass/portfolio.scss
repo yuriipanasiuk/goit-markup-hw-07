@@ -3,16 +3,16 @@
 @import "./utils/vh";
 @import "./components/section";
 @import "./components/container";
-@import "./components/body";
 @import "./utils/reset-style";
 @import "./utils/placeholders";
 
 @import "./components/page-header";
-@import "./components/header-nav";
+@import "./components/nav";
 @import "./components/logo-header";
-@import "./components/header-contact";
+@import "./components/contacts";
 
-@import "./components/main";
+@import "./components/filters";
+@import "./components/example";
 @import "./components/cards";
 
 @import "./components/footer";

@@ -1,19 +1,22 @@
-.header-nav {
+.nav {
   display: flex;
 }
 
-.header-nav__list {
+.nav__list {
   display: flex;
-  margin-left: 93px;
 
   align-items: center;
 }
 
-.header-nav__item:not(:last-child) {
+.nav__list--margin {
+  margin-left: 93px;
+}
+
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-nav__link {
+.nav__link {
   position: relative;
 
   padding-top: 32px;
@@ -34,11 +37,11 @@
   }
 }
 
-.header-nav__link--current {
+.nav__link--current {
   color: $accent-color;
 }
 
-.header-nav__link--current-border::after {
+.nav__link--current-border::after {
   content: "";
   display: block;
   position: absolute;

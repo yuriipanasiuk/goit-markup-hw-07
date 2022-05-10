@@ -1,15 +1,15 @@
-.filter__list {
+.filter-list {
   margin-bottom: 50px;
 
   display: flex;
   justify-content: center;
 }
 
-.filter__item:not(:last-child) {
+.filter-list__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filter__btn {
+.filter-list__btn {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;

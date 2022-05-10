@@ -2,7 +2,7 @@
   margin-right: 70px;
 }
 
-.footer-address__text {
+.address__text {
   margin-bottom: 9px;
   color: $footer-adress-color;
 
@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-.footer-address__link {
+.address__link {
   display: block;
 
   color: rgba(255, 255, 255, 0.6);
@@ -26,6 +26,6 @@
   }
 }
 
-.footer-address__link:not(:last-child) {
+.address__link:not(:last-child) {
   margin-bottom: 9px;
 }
